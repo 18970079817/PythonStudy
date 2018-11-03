@@ -1,5 +1,5 @@
 #Two different way to acheive Fibonacci. Recursive is much slower.
-def Fibo_0(x):#Classic
+def Fibo_0(x):#Recursive
     if x < 0:
         print 'Error'
         return -1
@@ -8,7 +8,7 @@ def Fibo_0(x):#Classic
     else:
         return Fibo_0(x-2) + Fibo_0(x-1)
 
-def Fibo_1(x):#Recursive
+def Fibo_1(x):#Classic
     i = 1
     j = 1
     k = 1
