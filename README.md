@@ -1,1 +1,1 @@
-# phpshell
+Something about Python study.
