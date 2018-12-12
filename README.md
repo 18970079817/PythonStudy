@@ -1,1 +1,1 @@
-Something about Python study.
+# Something about Python study.
