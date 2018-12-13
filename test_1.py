@@ -1,3 +1,4 @@
+#easygui sample
 import easygui as g
 import PIL
 
